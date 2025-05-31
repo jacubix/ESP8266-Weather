@@ -6,11 +6,11 @@ import urequests
 import ntptime
 
 # --- Konfiguracja Wi-Fi ---
-SSID = 'multimedia_ApartamentBulwar'
-PASSWORD = 'Apart2933'
+SSID = '<NAZWA SIECI WIFI>'
+PASSWORD = '<HASLO SIECI WIFI'
 
 # --- Konfiguracja OpenWeather ---
-API_KEY = 'aa3a3a0fa76ae23c8247d4384eb840ab'
+API_KEY = <WPISZ KLUCZ WEATHERAPI>'
 CITY = 'Gdynia'
 WEATHER_URL = f'http://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&units=metric'
 
